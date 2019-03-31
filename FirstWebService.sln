@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebService", "FirstWebService\FirstWebService.csproj", "{261DD750-A68A-4E51-9226-C14256718C74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstWebService", "FirstWebService\FirstWebService.csproj", "{261DD750-A68A-4E51-9226-C14256718C74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsumerWebService", "ConsumerWebService", "{B69FE495-1769-41E7-BDB7-313724A1C079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWebServices", "ConsumeWebServices\ConsumeWebServices.csproj", "{A5F282FF-BE04-4C37-BE06-A87F29AB1588}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{261DD750-A68A-4E51-9226-C14256718C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{261DD750-A68A-4E51-9226-C14256718C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{261DD750-A68A-4E51-9226-C14256718C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F282FF-BE04-4C37-BE06-A87F29AB1588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F282FF-BE04-4C37-BE06-A87F29AB1588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F282FF-BE04-4C37-BE06-A87F29AB1588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F282FF-BE04-4C37-BE06-A87F29AB1588}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5F282FF-BE04-4C37-BE06-A87F29AB1588} = {B69FE495-1769-41E7-BDB7-313724A1C079}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86F914A8-E637-4D91-ACB6-F8EB3D23A0BD}
